@@ -1,0 +1,22 @@
+body { 
+  font-family: Arial, sans-serif; 
+  padding: 20px; 
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.thumb {
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
